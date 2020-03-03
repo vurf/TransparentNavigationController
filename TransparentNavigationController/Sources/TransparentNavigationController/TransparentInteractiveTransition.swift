@@ -1,15 +1,14 @@
 //
 //  TransparentInteractiveTransition.swift
-//  TransparentNavigationController
+//  
 //
-//  Created by i.varfolomeev on 10/11/2019.
-//  Copyright © 2019 i.varfolomeev. All rights reserved.
+//  Created by i.varfolomeev on 03/03/2020.
 //
 
 import Foundation
 import UIKit
 
-class TransparentInteractiveTransition: UIPercentDrivenInteractiveTransition {
+final class TransparentInteractiveTransition: UIPercentDrivenInteractiveTransition {
     
     var transitionInProgress: Bool = false
     

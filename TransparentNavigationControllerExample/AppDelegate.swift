@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TransparentNavigationController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

@@ -3,31 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B32E251A240E57E7007D9C86 /* TransparentNavigationController in Frameworks */ = {isa = PBXBuildFile; productRef = B32E2519240E57E7007D9C86 /* TransparentNavigationController */; };
 		B3E600E32378850000C3B1DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E600E22378850000C3B1DC /* AppDelegate.swift */; };
 		B3E600E52378850000C3B1DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E600E42378850000C3B1DC /* ViewController.swift */; };
 		B3E600EA2378850000C3B1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E600E92378850000C3B1DC /* Assets.xcassets */; };
 		B3E600ED2378850000C3B1DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E600EB2378850000C3B1DC /* LaunchScreen.storyboard */; };
-		B3E600F72378854100C3B1DC /* TransparentInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E600F62378854100C3B1DC /* TransparentInteractiveTransition.swift */; };
-		B3E600F92378855D00C3B1DC /* TransparentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E600F82378855D00C3B1DC /* TransparentAnimator.swift */; };
-		B3E600FB2378857200C3B1DC /* TransparentNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E600FA2378857200C3B1DC /* TransparentNavigationController.swift */; };
 		B3E600FD237885AD00C3B1DC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E600FC237885AD00C3B1DC /* SecondViewController.swift */; };
 		B3E600FF237885C200C3B1DC /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E600FE237885C200C3B1DC /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B3E600DF2378850000C3B1DC /* TransparentNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransparentNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32E2517240E54D0007D9C86 /* TransparentNavigationController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TransparentNavigationController; sourceTree = "<group>"; };
+		B3E600DF2378850000C3B1DC /* TransparentNavigationControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransparentNavigationControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E600E22378850000C3B1DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3E600E42378850000C3B1DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3E600E92378850000C3B1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3E600EC2378850000C3B1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3E600EE2378850000C3B1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3E600F62378854100C3B1DC /* TransparentInteractiveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentInteractiveTransition.swift; sourceTree = "<group>"; };
-		B3E600F82378855D00C3B1DC /* TransparentAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentAnimator.swift; sourceTree = "<group>"; };
-		B3E600FA2378857200C3B1DC /* TransparentNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentNavigationController.swift; sourceTree = "<group>"; };
 		B3E600FC237885AD00C3B1DC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B3E600FE237885C200C3B1DC /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -37,39 +33,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32E251A240E57E7007D9C86 /* TransparentNavigationController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B32E2518240E57E7007D9C86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B3E600D62378850000C3B1DC = {
 			isa = PBXGroup;
 			children = (
-				B3E600E12378850000C3B1DC /* TransparentNavigationController */,
+				B32E2517240E54D0007D9C86 /* TransparentNavigationController */,
+				B3E600E12378850000C3B1DC /* TransparentNavigationControllerExample */,
 				B3E600E02378850000C3B1DC /* Products */,
+				B32E2518240E57E7007D9C86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B3E600E02378850000C3B1DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3E600DF2378850000C3B1DC /* TransparentNavigationController.app */,
+				B3E600DF2378850000C3B1DC /* TransparentNavigationControllerExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B3E600E12378850000C3B1DC /* TransparentNavigationController */ = {
+		B3E600E12378850000C3B1DC /* TransparentNavigationControllerExample */ = {
 			isa = PBXGroup;
 			children = (
-				B3E600F52378851C00C3B1DC /* NavigationController */,
 				B3E600F42378850900C3B1DC /* Example */,
 				B3E600E22378850000C3B1DC /* AppDelegate.swift */,
 				B3E600E92378850000C3B1DC /* Assets.xcassets */,
 				B3E600EB2378850000C3B1DC /* LaunchScreen.storyboard */,
 				B3E600EE2378850000C3B1DC /* Info.plist */,
 			);
-			path = TransparentNavigationController;
+			path = TransparentNavigationControllerExample;
 			sourceTree = "<group>";
 		};
 		B3E600F42378850900C3B1DC /* Example */ = {
@@ -82,22 +87,12 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		B3E600F52378851C00C3B1DC /* NavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				B3E600F62378854100C3B1DC /* TransparentInteractiveTransition.swift */,
-				B3E600F82378855D00C3B1DC /* TransparentAnimator.swift */,
-				B3E600FA2378857200C3B1DC /* TransparentNavigationController.swift */,
-			);
-			path = NavigationController;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B3E600DE2378850000C3B1DC /* TransparentNavigationController */ = {
+		B3E600DE2378850000C3B1DC /* TransparentNavigationControllerExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3E600F12378850000C3B1DC /* Build configuration list for PBXNativeTarget "TransparentNavigationController" */;
+			buildConfigurationList = B3E600F12378850000C3B1DC /* Build configuration list for PBXNativeTarget "TransparentNavigationControllerExample" */;
 			buildPhases = (
 				B3E600DB2378850000C3B1DC /* Sources */,
 				B3E600DC2378850000C3B1DC /* Frameworks */,
@@ -107,9 +102,12 @@
 			);
 			dependencies = (
 			);
-			name = TransparentNavigationController;
+			name = TransparentNavigationControllerExample;
+			packageProductDependencies = (
+				B32E2519240E57E7007D9C86 /* TransparentNavigationController */,
+			);
 			productName = TransparentNavigationController;
-			productReference = B3E600DF2378850000C3B1DC /* TransparentNavigationController.app */;
+			productReference = B3E600DF2378850000C3B1DC /* TransparentNavigationControllerExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B3E600DA2378850000C3B1DC /* Build configuration list for PBXProject "TransparentNavigationController" */;
+			buildConfigurationList = B3E600DA2378850000C3B1DC /* Build configuration list for PBXProject "TransparentNavigationControllerExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3E600DE2378850000C3B1DC /* TransparentNavigationController */,
+				B3E600DE2378850000C3B1DC /* TransparentNavigationControllerExample */,
 			);
 		};
 /* End PBXProject section */
@@ -164,11 +162,8 @@
 			files = (
 				B3E600FD237885AD00C3B1DC /* SecondViewController.swift in Sources */,
 				B3E600E52378850000C3B1DC /* ViewController.swift in Sources */,
-				B3E600F92378855D00C3B1DC /* TransparentAnimator.swift in Sources */,
 				B3E600FF237885C200C3B1DC /* ThirdViewController.swift in Sources */,
 				B3E600E32378850000C3B1DC /* AppDelegate.swift in Sources */,
-				B3E600FB2378857200C3B1DC /* TransparentNavigationController.swift in Sources */,
-				B3E600F72378854100C3B1DC /* TransparentInteractiveTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -292,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -307,7 +302,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TransparentNavigationController/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TransparentNavigationControllerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,7 +320,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TransparentNavigationController/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TransparentNavigationControllerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B3E600DA2378850000C3B1DC /* Build configuration list for PBXProject "TransparentNavigationController" */ = {
+		B3E600DA2378850000C3B1DC /* Build configuration list for PBXProject "TransparentNavigationControllerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3E600EF2378850000C3B1DC /* Debug */,
@@ -348,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3E600F12378850000C3B1DC /* Build configuration list for PBXNativeTarget "TransparentNavigationController" */ = {
+		B3E600F12378850000C3B1DC /* Build configuration list for PBXNativeTarget "TransparentNavigationControllerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3E600F22378850000C3B1DC /* Debug */,
@@ -358,6 +355,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B32E2519240E57E7007D9C86 /* TransparentNavigationController */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TransparentNavigationController;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B3E600D72378850000C3B1DC /* Project object */;
 }
